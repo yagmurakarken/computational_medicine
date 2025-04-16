@@ -4,11 +4,11 @@ This repository contains code and scripts used for the computational evaluation 
 
 ## Repository Structure
 
-- **cellular_model/**: Contains implementations and related scripts for cellular-level simulations.
+- **cellular_models/**: Contains implementations and related scripts for cellular-level simulations.
   - **Paci2020 model**: **IMPORTANT** – The original implementation of the Paci2020 model for human induced pluripotent stem cell-derived cardiomyocytes (hPSC-CMs) **is not included**. Please download it separately from the official source:
     - [Paci2020 Model Download Page](https://www.mcbeng.it/en/downloads/software/paci2020.html)
 
-Ensure you place the downloaded Paci2020 model files within the `cellular_model/` directory before running simulations.
+Ensure you place the downloaded Paci2020 model files within the `cellular_models/` directory before running simulations.
 
 ## Usage Instructions
 
