@@ -1,6 +1,10 @@
-# Computational Study on Arrhythmia Risk Post-Myocardial Infarction
+# Computational Study on Baseline Arrhythmia Risk in Human Stem Cell-Derived Cardiomyocyte Phenotypes
 
-This repository contains code and scripts used for the computational evaluation of arrhythmia risk following myocardial infarction, focusing specifically on the role of cellular heterogeneity and electrical conduction through the Purkinje system.
+This repository contains the anonymized simulation code used in the computational study titled "Assessing Baseline Arrhythmia Risk in Human Stem Cell-Derived Cardiomyocyte Phenotypes for Therapeutic Use in Myocardial Infarction."
+
+## Overview
+
+The provided code implements the validated Paci2020 electrophysiological model to simulate human induced pluripotent stem cell-derived cardiomyocytes (hPSC-CMs). The code specifically supports population-of-models (PoM) analyses for ventricular, atrial, and nodal cell phenotypes, and calculates key biomarkers relevant to arrhythmia risk assessment.
 
 ## Repository Structure
 
@@ -18,6 +22,9 @@ Ensure you place the downloaded Paci2020 model files within the `cellular_models
 
 ## Requirements
 
-- MATLAB
-- Additional toolboxes as specified within individual scripts
+- MATLAB (tested on MATLAB 2020b or newer)
+- No additional external toolboxes are required beyond the standard MATLAB installation.
 
+## Disclaimer
+
+This repository is anonymized and contains only the simulation code developed specifically for the computational study mentioned above. No experimental data or personal identifiers are included.
